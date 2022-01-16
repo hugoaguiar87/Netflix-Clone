@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './HomePage.css'
 
 import { data } from '../../Requests/Requests.js'
 import RowListMovie from "./components/RowListMovie.js";
@@ -21,7 +22,7 @@ const HomePage = () => {
            <section>
                {movieList.map((item, key) => {
                    return (
-                       <RowListMovie />
+                       <RowListMovie key={key} title={item.title} items={item.items} />
                    )
                })}
            </section>
