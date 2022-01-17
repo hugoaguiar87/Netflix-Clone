@@ -26,7 +26,7 @@ const HomePage = () => {
         loadAll()
     }, [])
 
-    
+    console.log(featuredData)
     return (
         <div>
             {featuredData && 
