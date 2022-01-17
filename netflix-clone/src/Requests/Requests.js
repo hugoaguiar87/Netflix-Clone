@@ -20,10 +20,12 @@ const API_BaseURL = 'https://api.themoviedb.org/3'
 */
 
 const getRequest = async (endpoint) => {
-    const req = await axios.get(`${API_BaseURL}${endpoint}`).then(res => {return res.data.results})
+    const req = await axios.get(`${API_BaseURL}${endpoint}`).then(res => {return res.data})
 
     return req
 }
+
+
 
 export const data = {
     getHomeList: async () => {
@@ -84,6 +86,22 @@ export const data = {
                 items: await getRequest(`/discover/movie?with_genres=12&language=pt-BR&api_key=${API_KEY}`)
             }
         ]
+    },
+    getMovieInfos: async (movieId, type) => {
+        let infos = null
+
+        if(movieId) {
+            switch(type) {
+                case 'movie':
+                    return infos = await getRequest(`/movie/${movieId}?language=pt-BR&api_key=${API_KEY}`)
+                case 'tv':
+                   return infos = await getRequest(`/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`)
+                default:
+                   return infos = null
+            }
+        }
+
+        return infos;
     }
 
 } 
