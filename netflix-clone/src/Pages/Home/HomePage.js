@@ -32,7 +32,7 @@ const HomePage = () => {
                 <FeaturedMovie item={featuredData} />
             }
 
-           <section>
+           <section className="lists" >
                {movieList.map((item, key) => {
                    return (
                        <RowListMovie key={key} title={item.title} items={item.items.results} />

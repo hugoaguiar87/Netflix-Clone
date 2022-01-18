@@ -25,15 +25,16 @@ const FeaturedMovie = ({item}) => {
                         <div className='featured--seasons' >
                             {item.number_of_seasons} temporada{item.number_of_seasons !== 1 ? 's' : ''}
                         </div>
-                        <div className='featured--description' > {item.overview} </div>
-                        <div className='featured--buttons' >
-                            <button> ► Assistir </button>
-                            <button> + Minha Lista </button>
-                        </div>
-                        <div className='featured--genres' >
-                            <strong>Gêneros:</strong> {genres.join(', ')}
-                        </div>
                     </div>
+                    <div className='featured--description' > {item.overview} </div>
+                    <div className='featured--buttons' >
+                        <button className='featured--button-play' > ► Assistir </button>
+                        <button className='featured--button-addList' > + Minha Lista </button>
+                    </div>
+                    <div className='featured--genres' >
+                        <strong>Gêneros:</strong> {genres.join(', ')}
+                    </div>
+                    
                 </div>
             </div>
         </section>
