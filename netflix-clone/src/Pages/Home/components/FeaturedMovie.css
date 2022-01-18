@@ -97,10 +97,22 @@
 
 @media (max-width:800px) {
     .featured--name{
-        max-width: 90%;    
+        max-width: 90%;   
+        font-size: 40px; 
+    }
+    .featured--infos{
+        font-size: 14px;
     }
     .featured--description {
         max-width: 95%;
+        font-size: 16px;
+        min-height: 10%;
+    }
+    .featured--button-play, .featured--button-addList{
+        font-size: 16px;
+    }
+    .featured--genres{
+        font-size: 14px;
     }
     .featured {
         height: 90vh;
