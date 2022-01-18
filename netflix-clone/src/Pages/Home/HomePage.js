@@ -4,11 +4,13 @@ import './HomePage.css'
 import { data } from '../../Requests/Requests.js'
 import RowListMovie from "./components/RowListMovie.js";
 import FeaturedMovie from "./components/FeaturedMovie";
+import Header from "./components/Header";
 
 const HomePage = () => {
 
     const [movieList, setMovieList] = useState([])
     const [featuredData, setFeaturedData] = useState(null)
+    const [headerBackground, setHeaderBackground] = useState(false)
 
     useEffect(() => {
         const loadAll = async () => {
@@ -26,8 +28,22 @@ const HomePage = () => {
         loadAll()
     }, [])
 
+    useEffect(() => {
+        const changeBackgroundHeader = () => {
+            if(window.scrollY > 50) {
+                setHeaderBackground(true)
+            } else {
+                setHeaderBackground(false)
+            }
+        }
+
+        window.addEventListener('scroll', changeBackgroundHeader)
+    }, [])
+
     return (
         <div>
+            <Header headerBackground = {headerBackground} />
+
             {featuredData && 
                 <FeaturedMovie item={featuredData} />
             }
