@@ -10,7 +10,6 @@ const FeaturedMovie = ({item}) => {
         genres.push(i.name)
     }
 
-    console.log('filme',item)
     return(
         <section 
             className= 'featured' 
