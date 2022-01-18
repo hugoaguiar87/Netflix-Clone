@@ -94,3 +94,15 @@
     font-size: 16px;
     color: #999;
 }
+
+@media (max-width:800px) {
+    .featured--name{
+        max-width: 90%;    
+    }
+    .featured--description {
+        max-width: 95%;
+    }
+    .featured {
+        height: 90vh;
+    }
+}
