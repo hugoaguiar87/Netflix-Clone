@@ -3,21 +3,6 @@ import axios from 'axios'
 const API_KEY = 'b8807f6ace5bfa14e09d480fba1f11e8'
 const API_BaseURL = 'https://api.themoviedb.org/3'
 
-/*
-- Originais Netflix
-- Recomendados
-- Em Alta
-- Series
-- Ação
-- Comédia
-- Terror
-- Romance
-- Documentários
-- Ficção Científica
-- Animação
-- Aventura
-
-*/
 
 const getRequest = async (endpoint) => {
     const req = await axios.get(`${API_BaseURL}${endpoint}`).then(res => {return res.data})
@@ -33,7 +18,7 @@ export const data = {
             {
                 slug: 'originals',
                 title: 'Originais Netflix',
-                items: await getRequest(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
+                items: await getRequest(`/discover/tv?with_networks=213&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'trending',
