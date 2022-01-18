@@ -5,6 +5,7 @@ import { data } from '../../Requests/Requests.js'
 import RowListMovie from "./components/RowListMovie.js";
 import FeaturedMovie from "./components/FeaturedMovie";
 import Header from "./components/Header";
+import Loading from './components/Loading.js';
 
 const HomePage = () => {
 
@@ -55,7 +56,11 @@ const HomePage = () => {
                    )
                })}
            </section>
+
+            {movieList.length <=0 && <Loading />}
+           
         </div>
+
     )
 }
 
