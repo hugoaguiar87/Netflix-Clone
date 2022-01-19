@@ -42,6 +42,7 @@
 > - Header fixo e alternando cor de fundo de acordo com a posição da página
 > - Mostrando filme em destaque aleatório com suas informações
 > - Responsivo para dispositivos mobile
+> - Página de Loading
 
 ---
 
