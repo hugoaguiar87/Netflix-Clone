@@ -1,6 +1,6 @@
-<center>
+<p align='center'>
     <img  align= 'center' width='250px' src='https://assets.brand.microsites.netflix.io/assets/7dc497e2-4975-11ec-a9ce-066b49664af6_cm_1440w.jpg?v=1' alt='Logo Netflix' />
-</center>
+</p>
 
 ---
 
@@ -24,10 +24,10 @@
 
 <h2 align="center">Tecnologias e Bibliotecas Utilizadas 📱</h2>
 
-> - <b>React.js</b>
-    --> Axios
-    --> React Router
-    --> Hooks
+> - <b>React.js</b> <br>
+>*-> Axios<br>
+>*-> React Router<br>
+>*-> Hooks<br>
 > - <b>Html</b>
 > - <b>Javascript</b>
 > - <b>Css</b>
