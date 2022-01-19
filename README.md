@@ -63,11 +63,14 @@
 > - <a href='https://obtainable-cabbage.surge.sh/'>CLIQUE AQUI</a>
  ---
 
-<h3 align="center">Imagens da Aplicação</h3>
+<h2 align="center">Imagens da Aplicação</h2>
 
 > - ![1](https://user-images.githubusercontent.com/86810734/150129483-1e831c1e-8482-468e-a6a6-9afbd21826ef.png)
+> 
 > - ![2](https://user-images.githubusercontent.com/86810734/150129513-66ea1a1e-439c-4aa8-9ed0-448845690561.png)
+> 
 > - ![3](https://user-images.githubusercontent.com/86810734/150129551-8d1a1869-c60f-4000-beb0-a4d079298478.png)
+> 
 > - ![4](https://user-images.githubusercontent.com/86810734/150129571-90ce167f-9602-4b55-a348-155049bd7695.png)
 
 
