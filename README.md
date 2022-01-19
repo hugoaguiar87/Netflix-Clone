@@ -1,5 +1,5 @@
 <center>
-    <img  width='250px' src='https://assets.brand.microsites.netflix.io/assets/7dc497e2-4975-11ec-a9ce-066b49664af6_cm_1440w.jpg?v=1' alt='Logo Netflix' />
+    <img  align= 'center' width='250px' src='https://assets.brand.microsites.netflix.io/assets/7dc497e2-4975-11ec-a9ce-066b49664af6_cm_1440w.jpg?v=1' alt='Logo Netflix' />
 </center>
 
 ---
@@ -7,7 +7,7 @@
 <h1 align="center">Netflix Clone</h1>
 
 ---
-<h3 align="center">Sobre 📖</h3>
+<h2 align="center">Sobre 📖</h2>
 
 ---
 <p>
@@ -22,7 +22,7 @@
 
 ---
 
-<h3 align="center">Tecnologias e Bibliotecas Utilizadas 📱</h3>
+<h2 align="center">Tecnologias e Bibliotecas Utilizadas 📱</h2>
 
 > - <b>React.js</b>
     --> Axios
@@ -35,7 +35,7 @@
 > - <b>Integração com a API <a href= 'https://developers.themoviedb.org/3' >TheMovieDB</a></b>
 ---
 
-<h3 align="center">Funcionalidades 🛠️</h3>
+<h2 align="center">Funcionalidades 🛠️</h2>
 
 
 > - Scroll lateral nas listas de filmes
@@ -45,7 +45,7 @@
 
 ---
 
-<h3 align="center">Funcionalidades a Serem Implementadas🛠️</h3>
+<h2 align="center">Funcionalidades a Serem Implementadas🛠️</h2>
 
 > - Página inicial com seleção de usuário
 > - Página de detalhes ao clicar em um filme qualquer
@@ -56,7 +56,7 @@
 ---
 
 
-<h3 align="center">Como utilizar a aplicação 🤔</h3>
+<h2 align="center">Como utilizar a aplicação 🤔</h2>
 
 <p>
 
@@ -65,4 +65,9 @@
 
 <h3 align="center">Imagens da Aplicação</h3>
 
-> - 
+> - ![1](https://user-images.githubusercontent.com/86810734/150129483-1e831c1e-8482-468e-a6a6-9afbd21826ef.png)
+> - ![2](https://user-images.githubusercontent.com/86810734/150129513-66ea1a1e-439c-4aa8-9ed0-448845690561.png)
+> - ![3](https://user-images.githubusercontent.com/86810734/150129551-8d1a1869-c60f-4000-beb0-a4d079298478.png)
+> - ![4](https://user-images.githubusercontent.com/86810734/150129571-90ce167f-9602-4b55-a348-155049bd7695.png)
+
+
